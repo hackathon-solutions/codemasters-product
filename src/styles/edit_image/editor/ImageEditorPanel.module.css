@@ -1,0 +1,141 @@
+.left_control, .right_control, .center {
+    height: 100%;
+}
+
+.left_control, .right_control {
+    width: 15%;
+}
+
+.left_control {
+    box-shadow: 0 .1vw .3vw lightgray;
+}
+
+.center {
+    width: 70%;
+}
+
+.image_preview {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas_panel {
+    width: 90%;
+    height: 90%;
+    box-shadow: 0 0 .3vw lightgray;
+    overflow: scroll;
+}
+
+.canvas_panel::-webkit-scrollbar {
+    width: 4px;
+}
+
+.canvas_panel::-webkit-scrollbar:horizontal {
+    height: 4px;
+}
+
+.canvas_panel::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.canvas_panel::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.canvas_panel::-webkit-scrollbar-thumb:active {
+    background-color: gray;
+}
+
+.ops_control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    box-shadow: 0 .1vw .5vw lightgray;
+}
+
+.reset_ops {
+    margin: .1vw 8vw;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.btn_ops {
+    margin: .5vw;
+    font-size: 1vw;
+    width: 3vw;
+}
+
+.reset_ops:active {
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+.right_control {
+    box-shadow: 0 -.1vw .3vw lightgray;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+/* >=3000 */
+@media screen and (min-width: 3000px) {
+    .canvas_panel {
+        width: 1900px;
+        height: 1200px;
+    }
+}
+
+@media screen and (min-width: 2500px) and (max-width: 2999px) {
+    .canvas_panel {
+        width: 1700px;
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 2200px) and (max-width: 2499px) {
+    .canvas_panel {
+        width: 1500px;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2199px) {
+    .canvas_panel {
+        width: 1300px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1899px) {
+    .canvas_panel {
+        width: 1100px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+    .canvas_panel {
+        width: 900px;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+    .canvas_panel {
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    .canvas_panel {
+        width: 500px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,35 @@
+.drop_image_place {
+    position: relative;
+    width: 60svw;
+    height: 60svh;
+    border: .2vw dashed gray;
+    border-radius: 3vw;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.drop_image_place:hover {
+    border: .15vw dashed gray;
+    background-color: lightskyblue;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.drop_image_place_hovered {
+    border: .15vw dashed gray;
+    background-color: lightskyblue;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.add_icon {
+    width: 3vw;
+    height: 3vw;
+}
+
+.uploaded_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3vw;
+}

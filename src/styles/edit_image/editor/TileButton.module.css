@@ -1,0 +1,19 @@
+.btn {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: .5vw 1.2vw;
+    border-radius: .5vw;
+    user-select: none;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.btn:active {
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+.img {
+    width: 2.5vw;
+    height: 2.5vw;
+}

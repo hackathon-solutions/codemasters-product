@@ -1,0 +1,42 @@
+.image_box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.control_panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .3vw 0;
+    padding: .1vw .5vw;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.control_panel_name {
+    margin: 0 .3vw;
+}
+
+.control_item_icon {
+    margin: .3vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    transition: .1s;
+}
+
+.control_item_icon:hover {
+    background: lightgray;
+    transition: .1s;
+}
+
+.control_item_icon:active {
+    transform: scale(1.1);
+    transition: .1s;
+}
+
+.editable_image {
+    width: 60svw;
+    height: 30svw;
+}

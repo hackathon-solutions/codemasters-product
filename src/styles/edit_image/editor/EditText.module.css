@@ -1,0 +1,20 @@
+.inp {
+    text-align: center;
+    border: 1px solid black;
+    padding: .5vw 1.2vw;
+    border-radius: .5vw;
+    user-select: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.inp input {
+    border: 0;
+    outline: none;
+    width: 100%;
+}
+
+.inp input:focus {
+    border: 0;
+    outline: none;
+}

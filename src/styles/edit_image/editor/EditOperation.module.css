@@ -1,0 +1,31 @@
+.operation {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.operation:hover {
+    background: lightgray;
+    transition: .1s;
+}
+
+.operation:active {
+    background: gray;
+    transition: .1s;
+}
+
+.op_img {
+    margin: .3vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    user-select: none;
+}
+
+.op_name {
+    margin: 0 .5vw;
+    font-size: .9vw;
+    font-weight: bold;
+    user-select: none;
+}
